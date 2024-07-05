@@ -11,7 +11,7 @@ import { Citations } from "../Citations";
 const DOMPurify = createDOMPurify(window);
 const HistoricalMessage = forwardRef(
   (
-    { uuid = v4(), message, role, sources = [], error = false, sentAt },
+    { uuid = v4(), message, role, sources, error = false, sentAt },
     ref
   ) => {
     const textSize = !!embedderSettings.settings.textSize

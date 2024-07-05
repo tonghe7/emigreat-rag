@@ -2,6 +2,7 @@ import { ArrowSquareOut } from "@phosphor-icons/react";
 import groupSources from '@/utils/groupSources';
 
 export const Citations = ({ sources }) => {
+    console.log(sources)
     if (!sources) return null;
     if (sources.length === 0) return null;
 
@@ -13,11 +14,11 @@ export const Citations = ({ sources }) => {
             groupedSources.map((source, index) => {
                 return (
                     <li>
+                        {index + 1}
                         <a href={source.url} target="_blank">
-                        {index + 1} {source.domain}
-                        <ArrowSquareOut className="inline-block w-4 h-4 ml-2" />
+                        {source.domain}
                         </a>
-                        
+                        <ArrowSquareOut className="inline-block w-4 h-4 ml-2" />
                     </li>
                 );
             })

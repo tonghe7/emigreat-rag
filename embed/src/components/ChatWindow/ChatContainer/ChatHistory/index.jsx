@@ -5,6 +5,7 @@ import { ArrowDown, CircleNotch } from "@phosphor-icons/react";
 import debounce from "lodash.debounce";
 
 export default function ChatHistory({ settings = {}, history = [] }) {
+  console.log('this is the history inside ChatHistory component: ', history)
   const replyRef = useRef(null);
   const [isAtBottom, setIsAtBottom] = useState(true);
   const chatHistoryRef = useRef(null);
