@@ -4,7 +4,7 @@ import renderMarkdown from "@/utils/chat/markdown";
 import { embedderSettings } from "@/main";
 import { v4 } from "uuid";
 import createDOMPurify from "dompurify";
-import AnythingLLMIcon from "@/assets/anything-llm-icon.svg";
+import EmigreatLogo from "@/assets/logo.svg";
 import { formatDate } from "@/utils/date";
 import { Citations } from "../Citations";
 
@@ -37,7 +37,7 @@ const HistoricalMessage = forwardRef(
         >
           {role === "assistant" && (
             <img
-              src={embedderSettings.settings.assistantIcon || AnythingLLMIcon}
+              src={embedderSettings.settings.assistantIcon || EmigreatLogo}
               alt="Anything LLM Icon"
               className="allm-w-9 allm-h-9 allm-flex-shrink-0 allm-ml-2 allm-mt-2"
               id="anything-llm-icon"
