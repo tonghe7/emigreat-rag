@@ -6,6 +6,7 @@ import { v4 } from "uuid";
 import createDOMPurify from "dompurify";
 import AnythingLLMIcon from "@/assets/anything-llm-icon.svg";
 import { formatDate } from "@/utils/date";
+import { Citations } from "../Citations";
 
 const DOMPurify = createDOMPurify(window);
 const HistoricalMessage = forwardRef(
@@ -70,12 +71,15 @@ const HistoricalMessage = forwardRef(
                   </p>
                 </div>
               ) : (
+                <div className="flex flex-col">
                 <span
                   className={`allm-whitespace-pre-line allm-flex allm-flex-col allm-gap-y-1 ${textSize} allm-leading-[20px]`}
                   dangerouslySetInnerHTML={{
                     __html: DOMPurify.sanitize(renderMarkdown(message)),
                   }}
                 />
+                <Citations sources={sources} />
+                </div>
               )}
             </div>
           </div>

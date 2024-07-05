@@ -96,7 +96,8 @@ async function streamChatWithForEmbed(
         })
       : {
           contextTexts: [],
-          sources: [],
+          // sources: [],
+          sources,
           message: null,
         };
 
@@ -159,7 +160,8 @@ async function streamChatWithForEmbed(
     });
     writeResponseChunk(response, {
       uuid,
-      sources: [],
+      // sources: [],
+      sources,
       type: "textResponseChunk",
       textResponse: completeText,
       close: true,
@@ -171,7 +173,8 @@ async function streamChatWithForEmbed(
     });
     completeText = await LLMConnector.handleStream(response, stream, {
       uuid,
-      sources: [],
+      // sources: [],
+      sources,
     });
   }
 
