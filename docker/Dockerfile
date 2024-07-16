@@ -115,14 +115,16 @@ WORKDIR /app
 # Install frontend dependencies
 FROM build AS frontend-deps
 
-COPY ./frontend/package.json ./frontend/yarn.lock ./frontend/
+# COPY ./frontend/package.json ./frontend/yarn.lock ./frontend/
+COPY ./frontend/package.json ./frontend/
 WORKDIR /app/frontend
 RUN yarn install --network-timeout 100000 && yarn cache clean
 WORKDIR /app
 
 # Install server dependencies
 FROM build AS server-deps
-COPY ./server/package.json ./server/yarn.lock ./server/
+# COPY ./server/package.json ./server/yarn.lock ./server/
+COPY ./server/package.json ./server/
 WORKDIR /app/server
 RUN yarn install --production --network-timeout 100000 && yarn cache clean
 WORKDIR /app
