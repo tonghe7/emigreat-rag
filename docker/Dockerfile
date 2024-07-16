@@ -123,7 +123,8 @@ WORKDIR /app
 
 # Install server dependencies
 FROM build AS server-deps
-COPY ./server/package.json ./server/yarn.lock ./server/
+# COPY ./server/package.json ./server/yarn.lock ./server/
+COPY ./server/package.json ./server/
 WORKDIR /app/server
 RUN yarn install --production --network-timeout 100000 && yarn cache clean
 WORKDIR /app
