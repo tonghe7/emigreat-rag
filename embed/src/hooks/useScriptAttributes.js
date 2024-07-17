@@ -18,7 +18,6 @@ const DEFAULT_SETTINGS = {
   userBgColor: "#2C2F35", // user text bubble color
   assistantBgColor: "#2563eb", // assistant text bubble color
   noSponsor: null, // Shows sponsor in footer of chat
-  sponsorText: "Learn more about Emigreat", // default sponsor text
   sponsorLink: "https://www.emigreat.io/", // default sponsor link
   position: "bottom-right", // position of chat button/window
   assistantName: "Emigreat AI Assistant", // default assistant name
