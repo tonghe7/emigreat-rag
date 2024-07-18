@@ -18,9 +18,7 @@ const CHAT_ICONS = {
 
 export default function OpenButton({ settings, isOpen, toggleOpen }) {
   if (isOpen) return null;
-  const ChatIcon = CHAT_ICONS.hasOwnProperty(settings?.chatIcon)
-    ? CHAT_ICONS[settings.chatIcon]
-    : CHAT_ICONS.plus;
+  const ChatIcon = CHAT_ICONS.chatBubble;
   return (
     <button
       style={{ backgroundColor: settings.buttonColor }}
