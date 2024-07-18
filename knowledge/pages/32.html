@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="description" content="" />
+            <script defer src="https://www.numbeo.com/common/numbeo_standard.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/themes/redmond/jquery-ui.min.css" rel="Stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.numbeo.com/favicon.ico" />
+    <script  defer  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script  defer  src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+   <script src='https://www.gstatic.com/charts/loader.js'></script>
+<link rel="apple-touch-icon" href="https://www.numbeo.com/images/apple-touch-icon.png">
+  <script>
+  if (typeof whenDocReady === "function") {
+    // already declared, do nothing
+  } else {
+    function whenDocReady(fn) {
+      // see if DOM is already available
+      if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+      } else {
+        document.addEventListener("DOMContentLoaded", fn);
+      }
+    }
+  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEZG0C6Q2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+gtag('config', 'G-HXEZG0C6Q2');
+</script>
+<link rel="stylesheet" href="https://cdn.datatables.net/v/ju/dt-1.10.22/datatables.min.css"/>
+<script defer src="https://cdn.datatables.net/v/ju/dt-1.10.22/datatables.min.js"></script>
+<script data-cfasync="false" async src="https://cdn.snigelweb.com/adengine/numbeo.com/loader.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://www.numbeo.com/common/style_desktop.css" />
+
+  <script>
+
+    function checkControls() {
+
+      enableIfElementsHaveSomeValue("calculate", /* to check */ "itemId", "displayCurrency");
+
+    }
+
+  </script>
+
+<link rel="canonical" href="https://www.numbeo.com/cost-of-living/region_prices_by_city?itemId=20&amp;region=150" />
+  <title>Europe: Prices by City of Monthly Pass (Regular Price) (Transportation)</title>
+
+</head>
+
+<body>
+
+<aside>
+<div class="top_ad">
+<div style="display: block; height: 90px; width: 100%; text-align: center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ad_in_header3 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="7618322317"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+</div>
+</aside>
+<nav>
+<div class="logo-and-upper-ad">
+<div class="innerWidth" id="content_and_logo">
+<table style="width: 100%;" >
+<tr>
+<td style="padding-top: 5px; padding-bottom: 7px; vertical-align: bottom;">
+<a href="https://www.numbeo.com/cost-of-living/" style="border: 0; text-decoration:none;">
+<img src="https://www.numbeo.com/images/numbeo_1B3B6F.svg" style="height: 56px; padding: 0px 0px; vertical-align: bottom; border: 0;" alt="" /></a>
+</td>
+<td style="padding-left:60px; padding-top: 1px; padding-bottom: 0px; vertical-align: middle; width: 840px; text-align: left;" >
+<div style="display: inline-block; width: 100%; margin-top: 10px; margin-bottom: 10px; text-align: left; vertical-align: bottom">
+<nav style="display: inline-block; vertical-align: middle;">
+<div class="standard_margin_inlineblock" >      <form action="https://www.numbeo.com/common/dispatcher.jsp" method="get" id="menu_dispatch_form"  style="display: inline; padding: 0; margin:0;">
+      <input type="hidden" name="where" value="https://www.numbeo.com/cost-of-living/in/" style="display: inline; padding:0; margin:0;" />
+<input id="city_selector_menu_city_id"  size="27"  type="text" placeholder="Select City" class="city-selector-menu" name="city_selector_menu_city_id" />
+<input type="hidden" id="menu_city_id" name="city_id"/>
+<input type="hidden" id="name_menu_city_id" name="name_city_id"/>
+      </form>
+</div>
+ <script>
+whenDocReady(function() {
+  	jQuery('#city_selector_menu_city_id').autocomplete({
+  	  source: 'https://www.numbeo.com/common/CitySearchJson',
+     minLength: 1,
+     delay: 3,
+     autoFocus: true,
+     select: function(event, ui) {
+         event.preventDefault();
+         $('#name_menu_city_id').val(ui.item.label);
+         $('#city_selector_menu_city_id').val(ui.item.label);
+         $('#menu_city_id').val(ui.item.value);
+jQuery('#menu_dispatch_form').submit();     },
+     focus: function(event, ui) {
+         event.preventDefault();
+     }
+	  })   .keydown(function(e){
+	    if (e.keyCode === 13){
+      if ($('#menu_city_id').val() == '') { 
+        e.preventDefault();
+      }
+      var val = $('#city_selector_menu_city_id').val();
+		   $('#name_menu_city_id').val(val);
+	   }
+  }); // end autocompleter definition
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+$('#city_selector_menu_city_id').toggleClass('city-selector-menu');
+ }); // end document ready 
+</script>
+</nav>
+</div>
+</td>
+</tr>
+</table>
+</div> <!-- innerWidth in header -->
+</div> <!-- logo-and-upper-ad -->
+</nav>
+<div class="innerWidth">
+<div class="dropdown-outer">
+<nav class="before-nav" >
+    <ul id="nav-one" class="nav">
+
+	<li class="dir">
+<a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/cost-of-living/">Cost Of Living</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/comparison.jsp">Cost of Living Comparison</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/calculator.jsp">Cost of Living Calculator</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_current.jsp">Cost Of Living Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings.jsp">Cost Of Living Index</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Cost Of Living Index By Country</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/estimator_main">Cost of Living Estimator</a></li>
+    <li><a href="https://www.numbeo.com/food-prices/">Food Prices</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp">Prices By City</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/prices_by_country.jsp">Prices By Country</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/historical-data-analysis">Historical Data</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/basket_of_goods.jsp">Basket of Goods and Services</a></li>
+    <li><a href="https://www.numbeo.com/taxi-fare/">Taxi Fare Calculator</a></li>
+    <li><a href="https://www.numbeo.com/gas-prices/">Gas Prices Calculator</a></li>
+    <li><a href="https://www.numbeo.com/common/motivation_and_methodology.jsp">Methodology and Motivation</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/contribute.jsp">Update Data for Your City</a></li>
+  </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/property-investment/">Property Prices</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/property-investment/">Property Prices</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/comparison.jsp">Property Prices Comparison</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_current.jsp">Property Price Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings.jsp">Property Price Index</a></li>
+    <li><a href="https://www.numbeo.com/property-investment/rankings_by_country.jsp">Property Price Index By Country</a></li>
+   </ul></li>
+
+	<li class="dir">
+<a href="https://www.numbeo.com/quality-of-life/">Quality Of Life</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/quality-of-life/">Quality of Life</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/comparison.jsp">Quality of Life Comparisons</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_current.jsp">Quality of Life Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings.jsp">Quality of Life Index</a></li>
+    <li><a href="https://www.numbeo.com/quality-of-life/rankings_by_country.jsp">Quality of Life Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/crime/">Crime</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_current.jsp">Crime Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings.jsp">Crime Index</a></li>
+    <li><a href="https://www.numbeo.com/crime/rankings_by_country.jsp">Crime Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/health-care/">Health Care</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_current.jsp">Health Care Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings.jsp">Health Care Index</a></li>
+    <li><a href="https://www.numbeo.com/health-care/rankings_by_country.jsp">Health Care Index by Country</a></li>
+    <li><a href="https://www.numbeo.com/pollution/">Pollution</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_current.jsp">Pollution Index (Current)</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings.jsp">Pollution Index</a></li>
+    <li><a href="https://www.numbeo.com/pollution/rankings_by_country.jsp">Pollution Index by Country</a></li>
+     <li><a href="https://www.numbeo.com/traffic/">Traffic</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_current.jsp">Traffic Index (Current)</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings.jsp">Traffic Index</a></li>
+     <li><a href="https://www.numbeo.com/traffic/rankings_by_country.jsp">Traffic Index by Country</a></li>
+	</ul></li>
+	<li class="dir">
+<a href="https://www.numbeo.com/premium/index">Premium</a>
+  <ul>
+    <li><a href="https://www.numbeo.com/common/api.jsp">API</a></li>
+    <li><a href="https://www.numbeo.com/premium/commercial-license">Commercial License</a></li>
+    <li><a href="https://www.numbeo.com/premium/download-data">Download CSV Data (Excel)</a></li>
+    <li><a href="https://www.numbeo.com/premium/">Insights</a></li>
+	</ul></li>
+
+
+</ul>
+<br style="clear: both"/>
+</nav>
+</div> <!-- dropdown-outer -->
+</div> <!-- innerWidth -->
+<div class="innerWidth">
+ <div class="right-ads-and-info">
+ <div class="right-ads">
+<script async
+src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Small Right 468x60 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="7246910313"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ </div>
+ </div>
+<p>
+<nav itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+<a href="https://www.numbeo.com/common/" class="discreet_link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="image_without_border hide_smaller_than_600" style="vertical-align: text-bottom" viewBox="0 0 24 24"><path fill="#1B3B6F" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z"/></svg></a><span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/" itemprop="item" class="breadcrumb_link"><span itemprop="name">Cost of Living</span></a><meta itemprop="position" content="1" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+ <a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp"  itemprop="item"  class="breadcrumb_link"><span itemprop="name">Prices by City</span></a><meta itemprop="position" content="2" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/prices_by_city.jsp?itemId=20"  itemprop="item"  class="breadcrumb_link">
+<span itemprop="name">Monthly Pass (Regular Price) (Transportation)</span></a><meta itemprop="position" content="3" />
+</span> <span style="font-size: 75%; display: inline-block;">&gt;</span> <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a href="https://www.numbeo.com/cost-of-living/region_prices_by_city?itemId=20&amp;regionCode=150"  itemprop="item"  class="breadcrumb_link">
+<span itemprop="name">Europe</span></a><meta itemprop="position" content="4" />
+</span>
+</nav>
+    <h1> Europe: Prices by City of Monthly Pass (Regular Price) (Transportation)</h1>
+
+
+<!-- Column 1 start -->
+
+
+<div id="page_container">
+
+
+<div class="fancy_explanation" style="margin-bottom: 0.8em; width: fit-content;">
+<a href="https://www.numbeo.com/cost-of-living/city_price_rankings?displayCurrency=EUR&amp;itemId=20&amp;regionCode=150">See bar chart of these data</a></div>
+
+<script>
+google.load('visualization', '1', {'packages': ['geochart']});
+ google.setOnLoadCallback(drawMarkersMap20);
+  function drawMarkersMap20() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('number', 'Lat'); // Latitude Value
+        data.addColumn('number', 'Lon'); // Longitude Value
+        data.addColumn('string', 'Name'); // 
+        data.addColumn('number', 'Monthly Pass (Regular Price), Transportation', 'Value'); // 
+data.addRows([
+[50.877571, 4.704328, "Leuven, Belgium", 39.50],
+[59.9342802, 30.3350986, "Saint Petersburg, Russia", 37.31],
+[36.7196484, -4.4200163, "Malaga, Spain", 25.95],
+[60.2054911, 24.6559001, "Espoo, Finland", 70.00],
+[60.17332440000001, 24.9410248, "Helsinki, Finland", 66.60],
+[47.0104529, 28.8638103, "Chisinau, Moldova", 12.12],
+[45.4654219, 9.1859243, "Milan, Italy", 39.00],
+[44.7715513, 17.1901669, "Banja Luka, Bosnia And Herzegovina", 29.13],
+[40.8517746, 14.2681244, "Naples, Italy", 35.00],
+[45.4064349, 11.8767611, "Padova, Italy", 40.95],
+[41.9027835, 12.4963655, "Rome, Italy", 35.00],
+[43.8515421, 18.3886246, "Sarajevo, Bosnia And Herzegovina", 27.09],
+[50.4499875, 30.5234937, "Kiev (Kyiv), Ukraine", 8.33],
+[45.0705621, 7.6866186, "Turin, Italy", 38.00],
+[45.764043, 4.835659, "Lyon, France", 69.40],
+[52.3702157, 4.895167900000001, "Amsterdam, Netherlands", 81.55],
+[44.8178787, 20.4568089, "Belgrade, Serbia", 18.80],
+[46.4713468, 30.7296333, "Odessa (Odesa), Ukraine", 13.33],
+[48.8566667, 2.3509871, "Paris, France", 86.00],
+[51.44164199999999, 5.4697225, "Eindhoven, Netherlands", 75.50],
+[42.1354079, 24.7452904, "Plovdiv, Bulgaria", 25.56],
+[53.2193835, 6.5665018, "Groningen, Netherlands", 60.00],
+[40.6400629, 22.9444191, "Thessaloniki, Greece", 30.00],
+[42.6976489, 23.3221545, "Sofia, Bulgaria", 25.56],
+[43.5115555, 16.4396801, "Split, Croatia", 35.93],
+[50.7754385, 6.0815102, "Aachen, Germany", 49.25],
+[51.9244201, 4.4777325, "Rotterdam, Netherlands", 65.00],
+[45.2671352, 19.8335496, "Novi Sad, Serbia", 21.36],
+[43.2166104, 27.9017131, "Varna, Bulgaria", 25.56],
+[52.09073739999999, 5.1214201, "Utrecht, Netherlands", 60.00],
+[52.52000659999999, 13.404954, "Berlin, Germany", 49.90],
+[60.39126279999999, 5.3220544, "Bergen, Norway", 66.40],
+[52.48624299999999, -1.890401, "Birmingham, United Kingdom", 71.37],
+[50.9374863, 6.9580232, "Cologne, Germany", 49.00],
+[51.0493286, 13.7381437, "Dresden, Germany", 50.00],
+[51.4553129, -2.5919023, "Bristol, United Kingdom", 99.68],
+[51.4579352, 7.0148281, "Essen, Germany", 49.00],
+[59.9138688, 10.7522454, "Oslo, Norway", 76.36],
+[50.12134215, 8.66195118582712, "Frankfurt, Germany", 49.00],
+[48.1458923, 17.1071373, "Bratislava, Slovakia", 36.00],
+[63.4305149, 10.3950528, "Trondheim, Norway", 78.32],
+[45.8150053, 15.9785014, "Zagreb, Croatia", 52.00],
+[53.5510846, 9.9936818, "Hamburg, Germany", 49.00],
+[50.06465009999999, 19.9449799, "Krakow (Cracow), Poland", 35.02],
+[52.3744779, 9.7385532, "Hanover, Germany", 49.00],
+[56.9465346, 24.1048525, "Riga, Latvia", 30.00],
+[54.35202520000001, 18.6466384, "Gdansk, Poland", 27.78],
+[43.31938, 21.896328, "Nis, Serbia", 22.56],
+[49.0080848, 8.4037563, "Karlsruhe, Germany", 49.00],
+[55.953252, -3.188267, "Edinburgh, United Kingdom", 74.34],
+[55.861147, -4.2499891, "Glasgow, United Kingdom", 73.51],
+[53.4083714, -2.9915726, "Liverpool, United Kingdom", 80.88],
+[50.26489189999999, 19.0237815, "Katowice, Poland", 32.56],
+[51.3396955, 12.3730747, "Leipzig, Germany", 49.00],
+[49.1909804, 16.6115347, "Brno, Czech Republic", 21.71],
+[52.406374, 16.9251681, "Poznan, Poland", 30.35],
+[48.1351253, 11.5819806, "Munich, Germany", 49.00],
+[49.4538723, 11.0772978, "Nuremberg, Germany", 49.00],
+[52.0704978, 4.3006999, "The Hague (Den Haag), Netherlands", 55.00],
+[51.5072759, -0.1276597, "London, United Kingdom", 237.89],
+[53.4285438, 14.5528116, "Szczecin, Poland", 18.68],
+[53.4791466, -2.2447445, "Manchester, United Kingdom", 95.16],
+[49.7474848, 13.3776036, "Plzen, Czech Republic", 21.91],
+[52.2296756, 21.0122287, "Warsaw, Poland", 25.68],
+[50.0755381, 14.4378005, "Prague, Czech Republic", 21.71],
+[51.1078852, 17.0385376, "Wroclaw, Poland", 25.68],
+[48.7771056, 9.1807688, "Stuttgart, Germany", 49.00],
+[51.2277411, 6.7734556, "Dusseldorf, Germany", 49.00],
+[55.6760968, 12.5683371, "Copenhagen, Denmark", 93.85],
+[46.0569465, 14.5057515, "Ljubljana, Slovenia", 37.00],
+[54.8981112, 23.9113098, "Kaunas, Lithuania", 28.00],
+[37.9841493, 23.7279843, "Athens, Greece", 29.00],
+[38.7222524, -9.1393366, "Lisbon, Portugal", 40.00],
+[41.33, 19.82, "Tirana, Albania", 15.95],
+[41.1579438, -8.629105299999999, "Porto, Portugal", 40.00],
+[47.4984056, 19.0407578, "Budapest, Hungary", 22.94],
+[47.5316049, 21.6273123, "Debrecen, Hungary", 19.11],
+[54.6871555, 25.2796514, "Vilnius, Lithuania", 29.00],
+[41.3850639, 2.1734035, "Barcelona, Spain", 23.05],
+[45.6579755, 25.6011977, "Brasov, Romania", 16.10],
+[44.4267674, 26.1025384, "Bucharest, Romania", 16.10],
+[55.6033306, 13.0013029, "Malmo, Sweden", 54.03],
+[49.6100036, 6.129596, "Luxembourg, Luxembourg", 0.00],
+[46.7712101, 23.6236353, "Cluj-Napoca, Romania", 20.13],
+[40.4166909, -3.7003454, "Madrid, Spain", 50.00],
+[59.43696079999999, 24.7535746, "Tallinn, Estonia", 30.00],
+[47.070714, 15.439504, "Graz, Austria", 60.40],
+[58.3776252, 26.7290063, "Tartu, Estonia", 20.00],
+[47.1584549, 27.6014418, "Iasi, Romania", 22.14],
+[47.8001977, 13.0410592, "Salzburg, Austria", 59.50],
+[45.7973912, 24.1519202, "Sibiu, Romania", 17.31],
+[39.4702393, -0.3768049, "Valencia, Spain", 30.00],
+[48.2092062, 16.3727778, "Vienna, Austria", 45.00],
+[45.7488716, 21.2086793, "Timisoara, Romania", 26.16],
+[41.9962268, 21.4317955, "Skopje, North Macedonia", 24.38],
+[47.5595986, 7.5885761, "Basel, Switzerland", 88.25],
+[46.9479986, 7.4481481, "Bern, Switzerland", 81.07],
+[64.12652059999999, -21.8174393, "Reykjavik, Iceland", 62.30],
+[46.2043907, 6.1431577, "Geneva, Switzerland", 71.83],
+[59.32932349999999, 18.0685808, "Stockholm, Sweden", 88.32],
+[53.902253, 27.561863, "Minsk, Belarus", 14.31],
+[46.5196168, 6.6322095, "Lausanne, Switzerland", 80.04],
+[51.7592485, 19.4559833, "Lodz, Poland", 39.22],
+[51.8968917, -8.4863157, "Cork, Ireland", 95.00],
+[57.70887, 11.97456, "Gothenburg, Sweden", 72.30],
+[53.3494299, -6.2600969, "Dublin, Ireland", 116.67],
+[55.755826, 37.6173, "Moscow, Russia", 28.29],
+[49.3987524, 8.6724335, "Heidelberg, Germany", 49.00],
+[56.329917, 44.009192, "Nizhny Novgorod, Russia", 14.51],
+[47.3690239, 8.5380326, "Zurich, Switzerland", 89.27],
+[51.2194475, 4.4024643, "Antwerp, Belgium", 60.00],
+[49.839683, 24.029717, "Lviv, Ukraine", 9.33],
+[42.6577982, 21.1533456, "Pristina, Kosovo (Disputed Territory)", 14.00],
+[44.1598013, 28.6348138, "Constanta, Romania", 12.08],
+[50.8503396, 4.3517103, "Brussels, Belgium", 49.00],
+[35.9122222, 14.5041667, "Sliema, Malta", 26.00],
+[44.4942191, 11.3464815, "Bologna, Italy", 35.50]]);
+
+ var hrefs = [
+'https://www.numbeo.com/cost-of-living/in/Leuven',
+'https://www.numbeo.com/cost-of-living/in/Saint-Petersburg',
+'https://www.numbeo.com/cost-of-living/in/Malaga',
+'https://www.numbeo.com/cost-of-living/in/Espoo',
+'https://www.numbeo.com/cost-of-living/in/Helsinki',
+'https://www.numbeo.com/cost-of-living/in/Chisinau',
+'https://www.numbeo.com/cost-of-living/in/Milan',
+'https://www.numbeo.com/cost-of-living/in/Banja-Luka',
+'https://www.numbeo.com/cost-of-living/in/Naples',
+'https://www.numbeo.com/cost-of-living/in/Padova',
+'https://www.numbeo.com/cost-of-living/in/Rome',
+'https://www.numbeo.com/cost-of-living/in/Sarajevo',
+'https://www.numbeo.com/cost-of-living/in/Kiev',
+'https://www.numbeo.com/cost-of-living/in/Turin',
+'https://www.numbeo.com/cost-of-living/in/Lyon',
+'https://www.numbeo.com/cost-of-living/in/Amsterdam',
+'https://www.numbeo.com/cost-of-living/in/Belgrade',
+'https://www.numbeo.com/cost-of-living/in/Odesa',
+'https://www.numbeo.com/cost-of-living/in/Paris',
+'https://www.numbeo.com/cost-of-living/in/Eindhoven',
+'https://www.numbeo.com/cost-of-living/in/Plovdiv',
+'https://www.numbeo.com/cost-of-living/in/Groningen',
+'https://www.numbeo.com/cost-of-living/in/Thessaloniki',
+'https://www.numbeo.com/cost-of-living/in/Sofia',
+'https://www.numbeo.com/cost-of-living/in/Split',
+'https://www.numbeo.com/cost-of-living/in/Aachen',
+'https://www.numbeo.com/cost-of-living/in/Rotterdam',
+'https://www.numbeo.com/cost-of-living/in/Novi-Sad',
+'https://www.numbeo.com/cost-of-living/in/Varna',
+'https://www.numbeo.com/cost-of-living/in/Utrecht',
+'https://www.numbeo.com/cost-of-living/in/Berlin',
+'https://www.numbeo.com/cost-of-living/in/Bergen',
+'https://www.numbeo.com/cost-of-living/in/Birmingham',
+'https://www.numbeo.com/cost-of-living/in/Cologne',
+'https://www.numbeo.com/cost-of-living/in/Dresden',
+'https://www.numbeo.com/cost-of-living/in/Bristol',
+'https://www.numbeo.com/cost-of-living/in/Essen',
+'https://www.numbeo.com/cost-of-living/in/Oslo',
+'https://www.numbeo.com/cost-of-living/in/Frankfurt',
+'https://www.numbeo.com/cost-of-living/in/Bratislava',
+'https://www.numbeo.com/cost-of-living/in/Trondheim',
+'https://www.numbeo.com/cost-of-living/in/Zagreb',
+'https://www.numbeo.com/cost-of-living/in/Hamburg',
+'https://www.numbeo.com/cost-of-living/in/Krakow-Cracow',
+'https://www.numbeo.com/cost-of-living/in/Hanover',
+'https://www.numbeo.com/cost-of-living/in/Riga',
+'https://www.numbeo.com/cost-of-living/in/Gdansk',
+'https://www.numbeo.com/cost-of-living/in/Nis',
+'https://www.numbeo.com/cost-of-living/in/Karlsruhe',
+'https://www.numbeo.com/cost-of-living/in/Edinburgh',
+'https://www.numbeo.com/cost-of-living/in/Glasgow',
+'https://www.numbeo.com/cost-of-living/in/Liverpool',
+'https://www.numbeo.com/cost-of-living/in/Katowice',
+'https://www.numbeo.com/cost-of-living/in/Leipzig',
+'https://www.numbeo.com/cost-of-living/in/Brno',
+'https://www.numbeo.com/cost-of-living/in/Poznan',
+'https://www.numbeo.com/cost-of-living/in/Munich',
+'https://www.numbeo.com/cost-of-living/in/Nuremberg',
+'https://www.numbeo.com/cost-of-living/in/The-Hague-Den-Haag-Netherlands',
+'https://www.numbeo.com/cost-of-living/in/London',
+'https://www.numbeo.com/cost-of-living/in/Szczecin',
+'https://www.numbeo.com/cost-of-living/in/Manchester',
+'https://www.numbeo.com/cost-of-living/in/Plzen',
+'https://www.numbeo.com/cost-of-living/in/Warsaw',
+'https://www.numbeo.com/cost-of-living/in/Prague',
+'https://www.numbeo.com/cost-of-living/in/Wroclaw',
+'https://www.numbeo.com/cost-of-living/in/Stuttgart',
+'https://www.numbeo.com/cost-of-living/in/Dusseldorf',
+'https://www.numbeo.com/cost-of-living/in/Copenhagen',
+'https://www.numbeo.com/cost-of-living/in/Ljubljana',
+'https://www.numbeo.com/cost-of-living/in/Kaunas',
+'https://www.numbeo.com/cost-of-living/in/Athens',
+'https://www.numbeo.com/cost-of-living/in/Lisbon',
+'https://www.numbeo.com/cost-of-living/in/Tirana',
+'https://www.numbeo.com/cost-of-living/in/Porto',
+'https://www.numbeo.com/cost-of-living/in/Budapest',
+'https://www.numbeo.com/cost-of-living/in/Debrecen',
+'https://www.numbeo.com/cost-of-living/in/Vilnius',
+'https://www.numbeo.com/cost-of-living/in/Barcelona',
+'https://www.numbeo.com/cost-of-living/in/Brasov',
+'https://www.numbeo.com/cost-of-living/in/Bucharest',
+'https://www.numbeo.com/cost-of-living/in/Malmo',
+'https://www.numbeo.com/cost-of-living/in/Luxembourg',
+'https://www.numbeo.com/cost-of-living/in/Cluj-napoca',
+'https://www.numbeo.com/cost-of-living/in/Madrid',
+'https://www.numbeo.com/cost-of-living/in/Tallinn',
+'https://www.numbeo.com/cost-of-living/in/Graz',
+'https://www.numbeo.com/cost-of-living/in/Tartu',
+'https://www.numbeo.com/cost-of-living/in/Iasi',
+'https://www.numbeo.com/cost-of-living/in/Salzburg',
+'https://www.numbeo.com/cost-of-living/in/Sibiu',
+'https://www.numbeo.com/cost-of-living/in/Valencia',
+'https://www.numbeo.com/cost-of-living/in/Vienna',
+'https://www.numbeo.com/cost-of-living/in/Timisoara',
+'https://www.numbeo.com/cost-of-living/in/Skopje',
+'https://www.numbeo.com/cost-of-living/in/Basel',
+'https://www.numbeo.com/cost-of-living/in/Bern',
+'https://www.numbeo.com/cost-of-living/in/Reykjavik',
+'https://www.numbeo.com/cost-of-living/in/Geneva',
+'https://www.numbeo.com/cost-of-living/in/Stockholm',
+'https://www.numbeo.com/cost-of-living/in/Minsk',
+'https://www.numbeo.com/cost-of-living/in/Lausanne',
+'https://www.numbeo.com/cost-of-living/in/Lodz',
+'https://www.numbeo.com/cost-of-living/in/Cork',
+'https://www.numbeo.com/cost-of-living/in/Gothenburg',
+'https://www.numbeo.com/cost-of-living/in/Dublin',
+'https://www.numbeo.com/cost-of-living/in/Moscow',
+'https://www.numbeo.com/cost-of-living/in/Heidelberg',
+'https://www.numbeo.com/cost-of-living/in/Nizhny-Novgorod-Russia',
+'https://www.numbeo.com/cost-of-living/in/Zurich',
+'https://www.numbeo.com/cost-of-living/in/Antwerp',
+'https://www.numbeo.com/cost-of-living/in/Lviv',
+'https://www.numbeo.com/cost-of-living/in/Pristina',
+'https://www.numbeo.com/cost-of-living/in/Constanta',
+'https://www.numbeo.com/cost-of-living/in/Brussels',
+'https://www.numbeo.com/cost-of-living/in/Sliema',
+'https://www.numbeo.com/cost-of-living/in/Bologna' ];
+
+  var options = {
+    region: '150',
+    backgroundColor: '#c4d7f3',
+    enableRegionInteractivity: true,
+    sizeAxis:  {minSize: 6,  maxSize: 6},
+    keepAspectRatio: false,
+    displayMode: 'markers',
+          colorAxis: {  minValue : 0 , maxValue : 238, colors: [ '#00FF00', '#FFFF00', '#FF0000'] }
+  };
+  var chart = new google.visualization.GeoChart(document.getElementById('chart_div20'));
+  google.visualization.events.addListener(chart, 'select', function() {
+      var selection = chart.getSelection();
+      var row = selection[0].row;
+      window.location = hrefs[row];
+  });
+  chart.draw(data, options);
+};
+</script>
+<div class="regionChartDivContainer">
+<div id="chart_div20" class="regionChartDiv" ></div>
+<div class="regionChartDivLabel">
+Chart: Monthly Pass (Regular Price), Transportation</div>
+</div>
+
+<div class="select_region_links">
+<span class="ui-state-default select_region"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" style="vertical-align: text-bottom"><path fill="#002BB8" d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1V7h2a2 2 0 0 0 2-2v-.41a7.984 7.984 0 0 1 2.9 12.8M11 19.93c-3.95-.49-7-3.85-7-7.93c0-.62.08-1.22.21-1.79L9 15v1a2 2 0 0 0 2 2m1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2Z"/></svg> <label>Select Region:</label></span><span class="nobreak">
+<a href="https://www.numbeo.com/cost-of-living/region_prices_by_city?displayCurrency=EUR&amp;itemId=20&amp;region=151" class="ui-state-default region_link">Eastern Europe</a>
+</span>
+<span class="nobreak">
+<a href="https://www.numbeo.com/cost-of-living/region_prices_by_city?displayCurrency=EUR&amp;itemId=20&amp;region=154" class="ui-state-default region_link">Northern Europe</a>
+</span>
+<span class="nobreak">
+<a href="https://www.numbeo.com/cost-of-living/region_prices_by_city?displayCurrency=EUR&amp;itemId=20&amp;region=039" class="ui-state-default region_link">Southern Europe</a>
+</span>
+<span class="nobreak">
+<a href="https://www.numbeo.com/cost-of-living/region_prices_by_city?displayCurrency=EUR&amp;itemId=20&amp;region=155" class="ui-state-default region_link">Western Europe</a>
+</span>
+</div>
+
+<form action="region_prices_by_city" method="get" class="standard_margin">
+<input type="hidden" name="itemId" value="20" />
+<input type="hidden" name="region" value="150" />
+Currency:          <select id="displayCurrency" name="displayCurrency" onchange="if (checkSelectedSomeTextNotDashed('displayCurrency')) this.form.submit();">
+             <option value="EUR" selected="selected">EUR</option>
+             <option value="USD">USD</option>
+             <option value="---">---</option>
+             <option value="AED">AED</option>
+             <option value="AFN">AFN</option>
+             <option value="ALL">ALL</option>
+             <option value="AMD">AMD</option>
+             <option value="ANG">ANG</option>
+             <option value="AOA">AOA</option>
+             <option value="AUD">AUD</option>
+             <option value="AWG">AWG</option>
+             <option value="AZN">AZN</option>
+             <option value="BAM">BAM</option>
+             <option value="BBD">BBD</option>
+             <option value="BDT">BDT</option>
+             <option value="BGN">BGN</option>
+             <option value="BHD">BHD</option>
+             <option value="BIF">BIF</option>
+             <option value="BMD">BMD</option>
+             <option value="BND">BND</option>
+             <option value="BOB">BOB</option>
+             <option value="BRL">BRL</option>
+             <option value="BSD">BSD</option>
+             <option value="BTN">BTN</option>
+             <option value="BWP">BWP</option>
+             <option value="BYN">BYN</option>
+             <option value="BZD">BZD</option>
+             <option value="CAD">CAD</option>
+             <option value="CDF">CDF</option>
+             <option value="CHF">CHF</option>
+             <option value="CLF">CLF</option>
+             <option value="CLP">CLP</option>
+             <option value="CNH">CNH</option>
+             <option value="CNY">CNY</option>
+             <option value="COP">COP</option>
+             <option value="CRC">CRC</option>
+             <option value="CUC">CUC</option>
+             <option value="CVE">CVE</option>
+             <option value="CZK">CZK</option>
+             <option value="DJF">DJF</option>
+             <option value="DKK">DKK</option>
+             <option value="DOP">DOP</option>
+             <option value="EGP">EGP</option>
+             <option value="ERN">ERN</option>
+             <option value="EUR">EUR</option>
+             <option value="FJD">FJD</option>
+             <option value="FKP">FKP</option>
+             <option value="GBP">GBP</option>
+             <option value="GEL">GEL</option>
+             <option value="GGP">GGP</option>
+             <option value="GHS">GHS</option>
+             <option value="GIP">GIP</option>
+             <option value="GMD">GMD</option>
+             <option value="GNF">GNF</option>
+             <option value="GTQ">GTQ</option>
+             <option value="GYD">GYD</option>
+             <option value="HKD">HKD</option>
+             <option value="HNL">HNL</option>
+             <option value="HRK">HRK</option>
+             <option value="HTG">HTG</option>
+             <option value="HUF">HUF</option>
+             <option value="IDR">IDR</option>
+             <option value="ILS">ILS</option>
+             <option value="IMP">IMP</option>
+             <option value="INR">INR</option>
+             <option value="IQD">IQD</option>
+             <option value="IRR">IRR</option>
+             <option value="ISK">ISK</option>
+             <option value="JEP">JEP</option>
+             <option value="JMD">JMD</option>
+             <option value="JOD">JOD</option>
+             <option value="JPY">JPY</option>
+             <option value="KES">KES</option>
+             <option value="KGS">KGS</option>
+             <option value="KHR">KHR</option>
+             <option value="KMF">KMF</option>
+             <option value="KPW">KPW</option>
+             <option value="KRW">KRW</option>
+             <option value="KWD">KWD</option>
+             <option value="KYD">KYD</option>
+             <option value="KZT">KZT</option>
+             <option value="LAK">LAK</option>
+             <option value="LKR">LKR</option>
+             <option value="LRD">LRD</option>
+             <option value="LSL">LSL</option>
+             <option value="LYD">LYD</option>
+             <option value="MAD">MAD</option>
+             <option value="MDL">MDL</option>
+             <option value="MGA">MGA</option>
+             <option value="MKD">MKD</option>
+             <option value="MNT">MNT</option>
+             <option value="MOP">MOP</option>
+             <option value="MRU">MRU</option>
+             <option value="MUR">MUR</option>
+             <option value="MVR">MVR</option>
+             <option value="MXN">MXN</option>
+             <option value="MYR">MYR</option>
+             <option value="MZN">MZN</option>
+             <option value="NAD">NAD</option>
+             <option value="NIO">NIO</option>
+             <option value="NOK">NOK</option>
+             <option value="NPR">NPR</option>
+             <option value="NZD">NZD</option>
+             <option value="OMR">OMR</option>
+             <option value="PAB">PAB</option>
+             <option value="PEN">PEN</option>
+             <option value="PGK">PGK</option>
+             <option value="PHP">PHP</option>
+             <option value="PKR">PKR</option>
+             <option value="PLN">PLN</option>
+             <option value="PYG">PYG</option>
+             <option value="QAR">QAR</option>
+             <option value="RON">RON</option>
+             <option value="RSD">RSD</option>
+             <option value="RUB">RUB</option>
+             <option value="RWF">RWF</option>
+             <option value="SAR">SAR</option>
+             <option value="SBD">SBD</option>
+             <option value="SCR">SCR</option>
+             <option value="SDG">SDG</option>
+             <option value="SEK">SEK</option>
+             <option value="SGD">SGD</option>
+             <option value="SHP">SHP</option>
+             <option value="SLL">SLL</option>
+             <option value="SOS">SOS</option>
+             <option value="SRD">SRD</option>
+             <option value="STD">STD</option>
+             <option value="STN">STN</option>
+             <option value="SVC">SVC</option>
+             <option value="SYP">SYP</option>
+             <option value="SZL">SZL</option>
+             <option value="THB">THB</option>
+             <option value="TJS">TJS</option>
+             <option value="TMT">TMT</option>
+             <option value="TND">TND</option>
+             <option value="TOP">TOP</option>
+             <option value="TRY">TRY</option>
+             <option value="TTD">TTD</option>
+             <option value="TWD">TWD</option>
+             <option value="TZS">TZS</option>
+             <option value="UAH">UAH</option>
+             <option value="UGX">UGX</option>
+             <option value="USD">USD</option>
+             <option value="UYU">UYU</option>
+             <option value="UZS">UZS</option>
+             <option value="VES">VES</option>
+             <option value="VND">VND</option>
+             <option value="VUV">VUV</option>
+             <option value="WST">WST</option>
+             <option value="XAF">XAF</option>
+             <option value="XAG">XAG</option>
+             <option value="XCD">XCD</option>
+             <option value="XDR">XDR</option>
+             <option value="XOF">XOF</option>
+             <option value="XPF">XPF</option>
+             <option value="YER">YER</option>
+             <option value="ZAR">ZAR</option>
+             <option value="ZMW">ZMW</option>
+             <option value="ZWL">ZWL</option>
+         </select>
+
+</form>
+
+<div style="max-width: 35em;">
+<table id="t2"  class="stripe row-border order-column compact" >
+<thead>
+<tr>
+	<th><div style="font-size: 80%; vertical-align: middle;">Rank</div></th>
+<th><div class="font_in_table_headers">City</div></th><th><div class="font_in_table_headers">Monthly Pass <br/>(Regular Price)</div></th></tr>
+</thead>
+<tbody>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Leuven">Leuven, Belgium</a></td><td style="white-space: nowrap; text-align: right">39.50</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Saint-Petersburg">Saint Petersburg, Russia</a></td><td style="white-space: nowrap; text-align: right">37.31</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Malaga">Malaga, Spain</a></td><td style="white-space: nowrap; text-align: right">25.95</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Espoo">Espoo, Finland</a></td><td style="white-space: nowrap; text-align: right">70.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Helsinki">Helsinki, Finland</a></td><td style="white-space: nowrap; text-align: right">66.60</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Chisinau">Chisinau, Moldova</a></td><td style="white-space: nowrap; text-align: right">12.12</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Milan">Milan, Italy</a></td><td style="white-space: nowrap; text-align: right">39.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Naples">Naples, Italy</a></td><td style="white-space: nowrap; text-align: right">35.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Banja-Luka">Banja Luka, Bosnia And Herzegovina</a></td><td style="white-space: nowrap; text-align: right">29.13</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Padova">Padova, Italy</a></td><td style="white-space: nowrap; text-align: right">40.95</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Rome">Rome, Italy</a></td><td style="white-space: nowrap; text-align: right">35.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Sarajevo">Sarajevo, Bosnia And Herzegovina</a></td><td style="white-space: nowrap; text-align: right">27.09</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Turin">Turin, Italy</a></td><td style="white-space: nowrap; text-align: right">38.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Kiev">Kiev (Kyiv), Ukraine</a></td><td style="white-space: nowrap; text-align: right">8.33</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Lyon">Lyon, France</a></td><td style="white-space: nowrap; text-align: right">69.40</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Amsterdam">Amsterdam, Netherlands</a></td><td style="white-space: nowrap; text-align: right">81.55</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Belgrade">Belgrade, Serbia</a></td><td style="white-space: nowrap; text-align: right">18.80</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Odesa">Odessa (Odesa), Ukraine</a></td><td style="white-space: nowrap; text-align: right">13.33</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Paris">Paris, France</a></td><td style="white-space: nowrap; text-align: right">86.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Eindhoven">Eindhoven, Netherlands</a></td><td style="white-space: nowrap; text-align: right">75.50</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Plovdiv">Plovdiv, Bulgaria</a></td><td style="white-space: nowrap; text-align: right">25.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Groningen">Groningen, Netherlands</a></td><td style="white-space: nowrap; text-align: right">60.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Thessaloniki">Thessaloniki, Greece</a></td><td style="white-space: nowrap; text-align: right">30.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Sofia">Sofia, Bulgaria</a></td><td style="white-space: nowrap; text-align: right">25.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Split">Split, Croatia</a></td><td style="white-space: nowrap; text-align: right">35.93</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Rotterdam">Rotterdam, Netherlands</a></td><td style="white-space: nowrap; text-align: right">65.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Aachen">Aachen, Germany</a></td><td style="white-space: nowrap; text-align: right">49.25</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Varna">Varna, Bulgaria</a></td><td style="white-space: nowrap; text-align: right">25.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Novi-Sad">Novi Sad, Serbia</a></td><td style="white-space: nowrap; text-align: right">21.36</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Utrecht">Utrecht, Netherlands</a></td><td style="white-space: nowrap; text-align: right">60.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Berlin">Berlin, Germany</a></td><td style="white-space: nowrap; text-align: right">49.90</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bergen">Bergen, Norway</a></td><td style="white-space: nowrap; text-align: right">66.40</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Birmingham">Birmingham, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">71.37</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Cologne">Cologne, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Dresden">Dresden, Germany</a></td><td style="white-space: nowrap; text-align: right">50.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bristol">Bristol, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">99.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Oslo">Oslo, Norway</a></td><td style="white-space: nowrap; text-align: right">76.36</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Essen">Essen, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Frankfurt">Frankfurt, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bratislava">Bratislava, Slovakia</a></td><td style="white-space: nowrap; text-align: right">36.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Trondheim">Trondheim, Norway</a></td><td style="white-space: nowrap; text-align: right">78.32</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Zagreb">Zagreb, Croatia</a></td><td style="white-space: nowrap; text-align: right">52.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Hamburg">Hamburg, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Krakow-Cracow">Krakow (Cracow), Poland</a></td><td style="white-space: nowrap; text-align: right">35.02</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Hanover">Hanover, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Riga">Riga, Latvia</a></td><td style="white-space: nowrap; text-align: right">30.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Gdansk">Gdansk, Poland</a></td><td style="white-space: nowrap; text-align: right">27.78</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Nis">Nis, Serbia</a></td><td style="white-space: nowrap; text-align: right">22.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Karlsruhe">Karlsruhe, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Edinburgh">Edinburgh, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">74.34</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Liverpool">Liverpool, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">80.88</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Glasgow">Glasgow, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">73.51</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Katowice">Katowice, Poland</a></td><td style="white-space: nowrap; text-align: right">32.56</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Leipzig">Leipzig, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Brno">Brno, Czech Republic</a></td><td style="white-space: nowrap; text-align: right">21.71</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Poznan">Poznan, Poland</a></td><td style="white-space: nowrap; text-align: right">30.35</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Munich">Munich, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Nuremberg">Nuremberg, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/The-Hague-Den-Haag-Netherlands">The Hague (Den Haag), Netherlands</a></td><td style="white-space: nowrap; text-align: right">55.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/London">London, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">237.89</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Szczecin">Szczecin, Poland</a></td><td style="white-space: nowrap; text-align: right">18.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Manchester">Manchester, United Kingdom</a></td><td style="white-space: nowrap; text-align: right">95.16</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Plzen">Plzen, Czech Republic</a></td><td style="white-space: nowrap; text-align: right">21.91</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Warsaw">Warsaw, Poland</a></td><td style="white-space: nowrap; text-align: right">25.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Prague">Prague, Czech Republic</a></td><td style="white-space: nowrap; text-align: right">21.71</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Wroclaw">Wroclaw, Poland</a></td><td style="white-space: nowrap; text-align: right">25.68</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Stuttgart">Stuttgart, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Dusseldorf">Dusseldorf, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Copenhagen">Copenhagen, Denmark</a></td><td style="white-space: nowrap; text-align: right">93.85</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Ljubljana">Ljubljana, Slovenia</a></td><td style="white-space: nowrap; text-align: right">37.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Kaunas">Kaunas, Lithuania</a></td><td style="white-space: nowrap; text-align: right">28.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Athens">Athens, Greece</a></td><td style="white-space: nowrap; text-align: right">29.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Lisbon">Lisbon, Portugal</a></td><td style="white-space: nowrap; text-align: right">40.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tirana">Tirana, Albania</a></td><td style="white-space: nowrap; text-align: right">15.95</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Porto">Porto, Portugal</a></td><td style="white-space: nowrap; text-align: right">40.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Budapest">Budapest, Hungary</a></td><td style="white-space: nowrap; text-align: right">22.94</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Vilnius">Vilnius, Lithuania</a></td><td style="white-space: nowrap; text-align: right">29.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Debrecen">Debrecen, Hungary</a></td><td style="white-space: nowrap; text-align: right">19.11</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Barcelona">Barcelona, Spain</a></td><td style="white-space: nowrap; text-align: right">23.05</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Brasov">Brasov, Romania</a></td><td style="white-space: nowrap; text-align: right">16.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bucharest">Bucharest, Romania</a></td><td style="white-space: nowrap; text-align: right">16.10</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Malmo">Malmo, Sweden</a></td><td style="white-space: nowrap; text-align: right">54.03</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Luxembourg">Luxembourg, Luxembourg</a></td><td style="white-space: nowrap; text-align: right">0.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Cluj-napoca">Cluj-Napoca, Romania</a></td><td style="white-space: nowrap; text-align: right">20.13</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Madrid">Madrid, Spain</a></td><td style="white-space: nowrap; text-align: right">50.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tallinn">Tallinn, Estonia</a></td><td style="white-space: nowrap; text-align: right">30.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Graz">Graz, Austria</a></td><td style="white-space: nowrap; text-align: right">60.40</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Tartu">Tartu, Estonia</a></td><td style="white-space: nowrap; text-align: right">20.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Iasi">Iasi, Romania</a></td><td style="white-space: nowrap; text-align: right">22.14</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Salzburg">Salzburg, Austria</a></td><td style="white-space: nowrap; text-align: right">59.50</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Sibiu">Sibiu, Romania</a></td><td style="white-space: nowrap; text-align: right">17.31</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Valencia">Valencia, Spain</a></td><td style="white-space: nowrap; text-align: right">30.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Vienna">Vienna, Austria</a></td><td style="white-space: nowrap; text-align: right">45.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Timisoara">Timisoara, Romania</a></td><td style="white-space: nowrap; text-align: right">26.16</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Skopje">Skopje, North Macedonia</a></td><td style="white-space: nowrap; text-align: right">24.38</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Basel">Basel, Switzerland</a></td><td style="white-space: nowrap; text-align: right">88.25</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bern">Bern, Switzerland</a></td><td style="white-space: nowrap; text-align: right">81.07</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Reykjavik">Reykjavik, Iceland</a></td><td style="white-space: nowrap; text-align: right">62.30</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Geneva">Geneva, Switzerland</a></td><td style="white-space: nowrap; text-align: right">71.83</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Stockholm">Stockholm, Sweden</a></td><td style="white-space: nowrap; text-align: right">88.32</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Minsk">Minsk, Belarus</a></td><td style="white-space: nowrap; text-align: right">14.31</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Lausanne">Lausanne, Switzerland</a></td><td style="white-space: nowrap; text-align: right">80.04</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Lodz">Lodz, Poland</a></td><td style="white-space: nowrap; text-align: right">39.22</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Cork">Cork, Ireland</a></td><td style="white-space: nowrap; text-align: right">95.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Gothenburg">Gothenburg, Sweden</a></td><td style="white-space: nowrap; text-align: right">72.30</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Dublin">Dublin, Ireland</a></td><td style="white-space: nowrap; text-align: right">116.67</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Moscow">Moscow, Russia</a></td><td style="white-space: nowrap; text-align: right">28.29</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Heidelberg">Heidelberg, Germany</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Nizhny-Novgorod-Russia">Nizhny Novgorod, Russia</a></td><td style="white-space: nowrap; text-align: right">14.51</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Zurich">Zurich, Switzerland</a></td><td style="white-space: nowrap; text-align: right">89.27</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Antwerp">Antwerp, Belgium</a></td><td style="white-space: nowrap; text-align: right">60.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Lviv">Lviv, Ukraine</a></td><td style="white-space: nowrap; text-align: right">9.33</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Pristina">Pristina, Kosovo (Disputed Territory)</a></td><td style="white-space: nowrap; text-align: right">14.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Constanta">Constanta, Romania</a></td><td style="white-space: nowrap; text-align: right">12.08</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Brussels">Brussels, Belgium</a></td><td style="white-space: nowrap; text-align: right">49.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Sliema">Sliema, Malta</a></td><td style="white-space: nowrap; text-align: right">26.00</td></tr>
+<tr><td></td>
+<td  style="white-space:nowrap"><a href="https://www.numbeo.com/cost-of-living/in/Bologna">Bologna, Italy</a></td><td style="white-space: nowrap; text-align: right">35.50</td></tr>
+</tbody>
+</table>
+</div> <!-- max div for tables -->
+
+    <script>
+    whenDocReady(function() {
+    var t_t2 = $('#t2').DataTable({
+  'columnDefs': [ {
+      'searchable': false,
+      'orderable': false,
+      'targets': 0
+  } ],
+        'paging': false,
+        'order': [[ 2, "desc" ]]
+,    });
+    t_t2.on( 'order.dt search.dt', function () {
+        t_t2.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
+            cell.innerHTML = i+1;
+        } );
+    } ).draw();
+  });
+</script>
+
+<p>Last Update: July 17, 2024 03:53 PM, CDT
+<br/>Data Source: Numbeo contributors and official sources
+<br/>Based on data collected within the last 12 months.
+</div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- numbeo_bottom_30 -->
+<div class="standard_margin">
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-8993465169534557"
+     data-ad-slot="9804259112"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+<!-- Column 1 end -->
+
+<div class="footer_content">
+<a href="https://www.numbeo.com/common/about.jsp">About</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/in_the_news.jsp">In the News</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/join_community.jsp">Newsletter</a><span class="footer_separator"></span>
+<a href="https://www.numbeo.com/common/api.jsp" rel="nofollow">API</a><p>
+<span style="font-style: italic">
+Copyright &copy; 2009-2024 Numbeo. Your use of this service is subject to our 
+<a href="https://www.numbeo.com/common/terms_of_use.jsp">Terms of Use</a> and 
+<a href="https://www.numbeo.com/common/privacy.jsp">Privacy Policy</a>
+</span></p>
+</div>
+</div> <!-- end of innerWidth --> 
+
+    </body>
+</html>
+
+
+
